@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'Noto Sans Korean';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Noto Sans Thin'), local('NotoSans-Thin'),
+    url(../fonts/eot/NotoSansKR-Thin-Hestia.eot),
+    url(../fonts/eot/NotoSansKR-Thin-Hestia.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/woff/NotoSansKR-Thin-Hestia.woff) format('woff'),
+    url(../fonts/otf/NotoSansKR-Thin-Hestia.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans Korean';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Noto Sans Light'), local('NotoSans-Light'),
+    url(../fonts/eot/NotoSansKR-Light-Hestia.eot),
+    url(../fonts/eot/NotoSansKR-Light-Hestia.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/woff/NotoSansKR-Light-Hestia.woff) format('woff'),
+    url(../fonts/otf/NotoSansKR-Light-Hestia.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans Korean';
+    font-style: normal;
+    font-weight: 350;
+    src: local('Noto Sans DemiLight'), local('NotoSans-DemiLight'),
+    url(../fonts/eot/NotoSansKR-DemiLight-Hestia.eot),
+    url(../fonts/eot/NotoSansKR-DemiLight-Hestia.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/woff/NotoSansKR-DemiLight-Hestia.woff) format('woff'),
+    url(../fonts/otf/NotoSansKR-DemiLight-Hestia.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans Korean';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Noto Sans Regular'), local('NotoSans-Regular'),
+    url(../fonts/eot/NotoSansKR-Regular-Hestia.eot),
+    url(../fonts/eot/NotoSansKR-Regular-Hestia.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/woff/NotoSansKR-Regular-Hestia.woff) format('woff'),
+    url(../fonts/otf/NotoSansKR-Regular-Hestia.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans Korean';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Noto Sans Medium'), local('NotoSans-Medium'),
+    url(../fonts/eot/NotoSansKR-Medium-Hestia.eot),
+    url(../fonts/eot/NotoSansKR-Medium-Hestia.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/woff/NotoSansKR-Medium-Hestia.woff) format('woff'),
+    url(../fonts/otf/NotoSansKR-Medium-Hestia.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans Korean';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Noto Sans Bold'), local('NotoSans-Bold'),
+    url(../fonts/eot/NotoSansKR-Bold-Hestia.eot),
+    url(../fonts/eot/NotoSansKR-Bold-Hestia.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/woff/NotoSansKR-Bold-Hestia.woff) format('woff'),
+    url(../fonts/otf/NotoSansKR-Bold-Hestia.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans Korean';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Noto Sans Black'), local('NotoSans-Black'),
+    url(../fonts/eot/NotoSansKR-Black-Hestia.eot),
+    url(../fonts/eot/NotoSansKR-Black-Hestia.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/woff/NotoSansKR-Black-Hestia.woff) format('woff'),
+    url(../fonts/otf/NotoSansKR-Black-Hestia.otf) format('opentype');
+}
+//color reset
+@point:#848456;
+@baseColor:#383733;
+
+::selection {
+    background:#cfcf90;
+    color: #FFF;
+    text-shadow: none;
+}
+::-moz-selection {
+    background:#cfcf90;
+    color: #FFF;
+    text-shadow: none;
+}
+::-webkit-selection {
+    background:#cfcf90;
+    color: #FFF;
+    text-shadow: none;
+}
+/*reset css*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address,
+em, img,
+small, strong, sub,
+b, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	font-size:14px;
+	line-height: 1.4;
+    color:@baseColor;
+}
+ol, ul {
+	list-style: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+label, select, input, textarea{
+    display: inline-block;
+    vertical-align: middle;
+}
+a{text-decoration: none;color:@baseColor;}
+a:hover{text-decoration:none;color:@point}
+button{border:0;background: transparent;cursor: pointer;font-family: "Noto Sans Korean", "맑은고딕", "Malgun Gothic", sans-serif;}
+input[type=submit]{border:0;background: transparent;cursor: pointer;}
+caption {display:none; margin: 0; padding: 0; }
+
+@media screen and (max-width:480px) {
+    body {
+        font-size:12px;
+    }
+}
